@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bebo-sh-website
+    name: bebo-sh
     env: static
     buildCommand: bin/bridgetown deploy
     staticPublishPath: ./output
