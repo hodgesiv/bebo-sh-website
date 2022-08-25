@@ -32,3 +32,6 @@ template_engine: serbea
 timezone: America/New_York
 pagination:
    enabled: true
+
+cloudinary:
+  cloud_name: bebo-sh
