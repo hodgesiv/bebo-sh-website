@@ -35,3 +35,7 @@ gem "puma", "~> 5.6"
 gem "bridgetown-lit-renderer", "= 2.0.0.beta3", :group => :bridgetown_plugins
 
 gem "bridgetown-cloudinary", "~> 1.2", :group => :bridgetown_plugins
+
+gem "bridgetown-feed", "~> 2.1", :group => :bridgetown_plugins
+
+gem "bridgetown-seo-tag", "~> 5.0", :group => :bridgetown_plugins
