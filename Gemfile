@@ -39,3 +39,5 @@ gem "bridgetown-cloudinary", "~> 1.2", :group => :bridgetown_plugins
 gem "bridgetown-feed", "~> 2.1", :group => :bridgetown_plugins
 
 gem "bridgetown-seo-tag", "~> 5.0", :group => :bridgetown_plugins
+
+gem "bridgetown-prismic", "~> 0.3.0", :group => :bridgetown_plugins

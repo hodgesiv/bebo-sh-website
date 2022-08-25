@@ -35,3 +35,10 @@ pagination:
 
 cloudinary:
   cloud_name: bebo-sh
+
+
+# Prismic config:
+prismic_repository: bebo
+autoload_paths:
+  - path: models
+    eager: true
