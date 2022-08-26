@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Your First Post on Bridgetown"
+cloudinary_id: v1659372357/sample.jpg
 date:   2022-08-24 17:32:09 -0400
 categories: updates
 ---
