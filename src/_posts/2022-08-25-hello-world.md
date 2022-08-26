@@ -1,8 +1,11 @@
 ---
 layout: post
 title:  "Hello World Component Example"
-cloudinary_id: 1659372357/sample.jpg
+description: An experiment in using web components
+author: nicko
 date:   2022-08-25 17:32:09 -0400
+url: https://bebo.sh
+cloudinary_id: https://res.cloudinary.com/bebo-sh/image/upload/v1659372357/sample.jpg
 categories: updates
 ---
 

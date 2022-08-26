@@ -1,5 +1,6 @@
 ---
 layout: default
+# <p>{{ resource.data.date }} - Written by {{ resource.data.author }}</p>
 ---
 
 <h1>{{ resource.data.title }}</h1>

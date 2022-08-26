@@ -8,4 +8,7 @@
     <li><a href="{{ '/about' | relative_url }}">About</a></li>
     <li><a href="{{ '/posts' | relative_url }}">Posts</a></li>
   </ul>
+  <div>
+    {%= liquid_render "bridgetown_quick_search/search", placeholder: "Search", input_class: "input", theme: "dark", snippet_length: 200 %}
+  </div>
 </nav>

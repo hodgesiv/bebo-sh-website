@@ -43,3 +43,5 @@ gem "bridgetown-seo-tag", "~> 5.0", :group => :bridgetown_plugins
 gem "bridgetown-prismic", "~> 0.3.0", :group => :bridgetown_plugins
 
 gem "bridgetown-svg-inliner", "~> 1.0", :group => :bridgetown_plugins
+
+gem "bridgetown-quick-search", "~> 1.1", :group => :bridgetown_plugins
