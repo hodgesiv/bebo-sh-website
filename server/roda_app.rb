@@ -3,10 +3,11 @@
 # server, but you can also run it in production for fast, dynamic applications.
 #
 # Learn more at: http://roda.jeremyevans.net
+require "bridgetown-prismic/roda/previews"
 
 class RodaApp < Bridgetown::Rack::Roda
   # Add additional Roda configuration here if needed
-
+  include BridgetownPrismic::Roda::Previews
   # Uncomment to use Bridgetown SSR:
   plugin :bridgetown_ssr
 

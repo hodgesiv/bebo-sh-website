@@ -7,6 +7,12 @@
   <body class="{{ resource.data.layout }} {{ resource.data.page_class }}">
     {%@ Shared::Navbar metadata: site.metadata, resource: resource %}
 
+  {% if site.config.prismic_preview_token %}
+    <p class="text-center" style="padding:7px; background:rgb(255, 230, 0); border-bottom:2px solid #333; margin:0; font-family:sans-serif; font-weight:bold; font-size:110%">
+    PREVIEW
+    </p>
+  {% end %}
+
     <main>
       {%= yield %}
     </main>
