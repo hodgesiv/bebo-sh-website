@@ -62,6 +62,9 @@ GEM
       prismic.io (>= 1.8)
     bridgetown-seo-tag (5.0.0)
       bridgetown (>= 0.20.0, < 2.0)
+    bridgetown-svg-inliner (1.0.2)
+      bridgetown (>= 0.20, < 2.0)
+      nokogiri
     cloudinary (1.23.0)
       aws_cf_signer
       rest-client (>= 2.0.0)
@@ -122,11 +125,14 @@ GEM
     multipart-post (2.2.3)
     netrc (0.11.0)
     nio4r (2.5.8)
+    nokogiri (1.13.8-x86_64-linux)
+      racc (~> 1.4)
     prismic.io (1.8.2)
       hashery (~> 2.1.1)
     public_suffix (5.0.0)
     puma (5.6.5)
       nio4r (~> 2.0)
+    racc (1.6.0)
     rack (2.2.4)
     rake (13.0.6)
     random-port (0.5.1)
@@ -171,6 +177,7 @@ DEPENDENCIES
   bridgetown-lit-renderer (= 2.0.0.beta3)
   bridgetown-prismic (~> 0.3.0)
   bridgetown-seo-tag (~> 5.0)
+  bridgetown-svg-inliner (~> 1.0)
   puma (~> 5.6)
 
 BUNDLED WITH
