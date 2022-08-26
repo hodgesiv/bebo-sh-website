@@ -9,6 +9,10 @@
   },
   "devDependencies": {
     "@ruby2js/esbuild-plugin": "^0.0.3",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@tailwindcss/typography": "^0.5.4",
     "cssnano": "^5.1.13",
     "esbuild": "^0.14.39",
     "glob": "^8.0.1",
@@ -19,7 +23,8 @@
     "postcss-load-config": "^3.1.4",
     "postcss-mixins": "^9.0.3",
     "postcss-preset-env": "^7.4.3",
-    "tailwindcss": "^3.1.8"
+    "tailwindcss": "^3.1.8",
+    "tailwindcss-debug-screens": "^2.2.1"
   },
   "dependencies": {
     "@hotwired/turbo": "^7.1.0",

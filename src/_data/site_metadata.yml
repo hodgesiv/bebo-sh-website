@@ -3,9 +3,38 @@
 # you will see them accessed via {{ site.metadata.title }}, {{ site.metadata.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
+charset: utf-8
+lang: en
+direction: ltr
+
+domain: Bebo.sh
+url: https://bebo.sh/
+repo: https://github.com/hodgesiv/bebo-sh-website
 
 title: Bebo.sh
 tagline: Better Engineering, Better Outcomes.
 email: nicholashodgesiv@gmail.com
 description: >-
   Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+
+feed:
+  subtitle: RSS Feed for bebo.sh
+  filename: feed.xml
+  path: /feed.xml
+  id: "bebo.sh"
+
+json_feed:
+  path: /feed.json
+  url: https://bebo.sh/feed.json
+
+twitter:
+  username: "@bebollc"
+  card: "summary_large_image"
+  url: https://twitter.com/bebollc/
+
+author:
+  name: Test Author
+  picture: https://res.cloudinary.com/andrewmcodes/image/upload/c_scale,h_80,w_80/v1/andrewm.codes/avatar-bw.jpg
+  twitter: bebollc
+  uri: https://bebo.sh
+  github: bebollc
